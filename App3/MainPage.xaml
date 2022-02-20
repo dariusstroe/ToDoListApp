@@ -22,10 +22,12 @@
                 <DataTemplate>
                     <ViewCell>
                         
-                        <FlexLayout>
+                        <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center">
                             <Label Text="{Binding TodoText}" FontSize="Large"/>
                             <ImageButton 
                                 Source="delete.png"
+                                Scale="0.7"
+                                
                                 />
                         </FlexLayout>
 
